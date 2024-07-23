@@ -569,7 +569,7 @@ a {
 	}
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
 	.contact {
 		&__img {
 			width: 40%;
@@ -584,6 +584,7 @@ a {
 		}
 	}
 }
+
 @media screen and (max-width: 1240px) {
 	.container {
 		width: 95%;
@@ -900,5 +901,37 @@ a {
 			margin: 0 auto;
 			width: 50%;
 		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.aside__phones {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.hero__blocks {
+		width: 85%;
+	}
+
+	.services {
+		&__box {
+			width: 100%;
+			flex-basis: 100%;
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.portfolio__title {
+		margin-left: 20px;
+
+		&::before {
+			left: -10%;
+		}
+	}
+
+	.form {
+		width: 90%;
+		margin: 25px auto 0;
 	}
 }

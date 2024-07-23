@@ -405,7 +405,7 @@ a {
   font-weight: 600;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .contact__img {
     width: 40%;
   }
@@ -656,5 +656,31 @@ a {
     flex-direction: column;
     margin: 0 auto;
     width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .aside__phones {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero__blocks {
+    width: 85%;
+  }
+  .services__box {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .services__box img {
+    width: 100%;
+  }
+  .portfolio__title {
+    margin-left: 20px;
+  }
+  .portfolio__title::before {
+    left: -10%;
+  }
+  .form {
+    width: 90%;
+    margin: 25px auto 0;
   }
 }/*# sourceMappingURL=main.css.map */
