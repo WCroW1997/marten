@@ -64,6 +64,12 @@ a {
 }
 .header .nav__item a {
   color: #000;
+  transition: all 0.2s ease;
+}
+.header .nav__item a:hover {
+  transform: scale(1.1);
+  font-weight: 700;
+  transition: all 0.2s ease;
 }
 .header .nav__item:not(:last-child)::after {
   content: url(./img/slash.svg);
@@ -128,6 +134,11 @@ a {
   font-size: 16px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+.btn:hover {
+  box-shadow: 10px 10px 8px 0px rgba(0, 206, 181, 0.3);
 }
 
 .section__title {
@@ -387,6 +398,14 @@ a {
 .footer .nav__list {
   list-style-type: none;
 }
+.footer .nav__list a {
+  transition: all 0.2s ease;
+}
+.footer .nav__list a:hover {
+  transform: scale(1.1);
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
 .footer .nav__item:not(:last-of-type) {
   margin-bottom: 30px;
 }
@@ -524,6 +543,21 @@ a {
   .aside__container {
     flex-direction: column;
     gap: 20px;
+  }
+  .hero {
+    padding-top: 40px;
+  }
+  .hero__footer {
+    margin-top: 30px;
+  }
+  .hero__title {
+    font-size: 35px;
+  }
+  .hero__subtitle, .hero__desc {
+    font-size: 18px;
+  }
+  .hero__desc {
+    margin: 20px 0;
   }
   .header__container {
     justify-content: space-evenly;
