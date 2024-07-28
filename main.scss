@@ -749,10 +749,10 @@ a {
 	}
 
 	.hero {
-		padding-top: 40px;
+		padding-top: 30px;
 
 		&__footer {
-			margin-top: 30px;
+			margin-top: 15px;
 		}
 
 		&__title {
@@ -764,8 +764,12 @@ a {
 			font-size: 18px;
 		}
 
+		// &__subtitle {
+		// 	margin-top: 15px;
+		// }
+
 		&__desc {
-			margin: 20px 0;
+			margin: 15px 0;
 		}
 	}
 

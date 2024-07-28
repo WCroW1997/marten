@@ -545,10 +545,10 @@ a {
     gap: 20px;
   }
   .hero {
-    padding-top: 40px;
+    padding-top: 30px;
   }
   .hero__footer {
-    margin-top: 30px;
+    margin-top: 15px;
   }
   .hero__title {
     font-size: 35px;
@@ -557,7 +557,7 @@ a {
     font-size: 18px;
   }
   .hero__desc {
-    margin: 20px 0;
+    margin: 15px 0;
   }
   .header__container {
     justify-content: space-evenly;
