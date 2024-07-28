@@ -545,6 +545,7 @@ a {
     gap: 20px;
   }
   .hero {
+    background: url("./img/construct1.png") no-repeat;
     padding-top: 30px;
   }
   .hero__footer {
