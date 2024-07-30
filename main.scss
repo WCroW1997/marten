@@ -750,10 +750,13 @@ a {
 
 	.hero {
 		background: url('./img/construct1.png') no-repeat;
-		padding-top: 30px;
+		padding-top: 12px;
+		background-size: contain;
+		background-position: none;
 
 		&__footer {
 			margin-top: 15px;
+			padding: 20px 0 45px;
 		}
 
 		&__title {
@@ -771,6 +774,14 @@ a {
 
 		&__desc {
 			margin: 15px 0;
+		}
+
+		&__blocks {
+			width: 70%;
+		}
+
+		&__box p {
+			left: 35%;
 		}
 	}
 
@@ -885,17 +896,6 @@ a {
 
 	body.lock {
 		overflow: hidden;
-	}
-
-	.hero {
-		background-position: 50%;
-		&__blocks {
-			width: 70%;
-		}
-
-		&__box p {
-			left: 35%;
-		}
 	}
 
 	.about__content {

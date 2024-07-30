@@ -546,10 +546,13 @@ a {
   }
   .hero {
     background: url("./img/construct1.png") no-repeat;
-    padding-top: 30px;
+    padding-top: 12px;
+    background-size: contain;
+    background-position: none;
   }
   .hero__footer {
     margin-top: 15px;
+    padding: 20px 0 45px;
   }
   .hero__title {
     font-size: 35px;
@@ -559,6 +562,12 @@ a {
   }
   .hero__desc {
     margin: 15px 0;
+  }
+  .hero__blocks {
+    width: 70%;
+  }
+  .hero__box p {
+    left: 35%;
   }
   .header__container {
     justify-content: space-evenly;
@@ -647,15 +656,6 @@ a {
   }
   body.lock {
     overflow: hidden;
-  }
-  .hero {
-    background-position: 50%;
-  }
-  .hero__blocks {
-    width: 70%;
-  }
-  .hero__box p {
-    left: 35%;
   }
   .about__content::before {
     content: "";
